@@ -1,6 +1,5 @@
 "use strict";
 var MODULE = (function (my,$) {
-    var wins =[7, 56, 448, 73, 146, 292, 273, 84];
     var $one=$('.boxes li').eq(0);
     var $two=$('.boxes li').eq(1);
     var $three=$('.boxes li').eq(2);
