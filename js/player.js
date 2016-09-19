@@ -1,13 +1,11 @@
-"use strict";
 var MODULE = (function (my,$) {
+    "use strict";
 	var player={
-        turn:false,
+        turn:false, 
         win:false,
-        score1:[],
-        score2:[]
-        
     };
     
+    //creating two players PLAYER1 and PLAYER2
     my.player1=Object.create(player);
     my.player2=Object.create(player);
     
